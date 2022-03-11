@@ -12,8 +12,6 @@ require_once  'db_connection.php';
 
 #################################################################################################### --- AJAX REQUEST, DELETE CRON
 
-// array_map ('trim', $_POST);
-
 $cronToBeDeleted = "";
 
 if (!empty($_POST['time'])) {
